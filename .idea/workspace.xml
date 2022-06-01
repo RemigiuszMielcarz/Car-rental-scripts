@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ce25740-9877-4f9b-9ed7-bca9652ed38a" name="Changes" comment="Changing name variables">
+    <list default="true" id="6ce25740-9877-4f9b-9ed7-bca9652ed38a" name="Changes" comment="Added column &quot;type&quot; in Item table and filled with chars">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/create_tables.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fill_tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/fill_tables.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changing name variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing name variables" />
+    <MESSAGE value="Added column &quot;type&quot; in Item table and filled with chars" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added column &quot;type&quot; in Item table and filled with chars" />
   </component>
 </project>
