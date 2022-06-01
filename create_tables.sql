@@ -19,6 +19,7 @@ specification varchar(50) NOT NULL);
 CREATE TABLE item (id SERIAL primary key,
 title varchar(200) NOT NULL,
 picture varchar(50) NOT NULL,
+type varchar(50) NOT NULL,
 car_id int NOT NULL UNIQUE,
 status_id int NOT NULL);
 

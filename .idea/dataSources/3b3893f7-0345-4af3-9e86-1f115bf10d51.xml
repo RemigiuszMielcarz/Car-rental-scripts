@@ -3,9 +3,9 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.38">
     <root id="1">
       <DateStyle>dmy</DateStyle>
-      <IntrospectionStateNumber>3911</IntrospectionStateNumber>
+      <IntrospectionStateNumber>4250</IntrospectionStateNumber>
       <ServerVersion>14.2</ServerVersion>
-      <StartupTime>1653905836</StartupTime>
+      <StartupTime>1654079124</StartupTime>
       <TimeZones>true ACDT
 true ACSST
 false ACST
@@ -800,16 +800,16 @@ false Zulu
 13388||10|C|G
 13388||-9223372036854775808|U|G
 13388||10|U|G</Grants>
-      <IntrospectionStateNumber>3912</IntrospectionStateNumber>
+      <IntrospectionStateNumber>4251</IntrospectionStateNumber>
       <ObjectId>29373</ObjectId>
-      <Relations>sequence|table|29873|29874|1
-sequence|table|29882|29883|1
-sequence|table|29891|29892|1
-sequence|table|29898|29899|1
-sequence|table|29912|29913|1
-sequence|table|29919|29920|1
-sequence|table|29926|29927|1
-sequence|table|29968|29969|1
+      <Relations>sequence|table|30304|30305|1
+sequence|table|30313|30314|1
+sequence|table|30326|30327|1
+sequence|table|30337|30338|1
+sequence|table|30344|30345|1
+sequence|table|30353|30354|1
+sequence|table|30360|30361|1
+sequence|table|30367|30368|1
 </Relations>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -4259,518 +4259,678 @@ sequence|table|29968|29969|1
     <schema id="266" parent="2" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>3912</IntrospectionStateNumber>
+      <IntrospectionStateNumber>4251</IntrospectionStateNumber>
       <ObjectId>2200</ObjectId>
       <StateNumber>527</StateNumber>
       <OwnerName>postgres</OwnerName>
     </schema>
     <sequence id="267" parent="266" name="car_brands_id_seq">
-      <DataType>bigint|0s</DataType>
-      <ObjectId>29873</ObjectId>
-      <StateNumber>3810</StateNumber>
+      <DataType>integer|0s</DataType>
+      <ObjectId>30304</ObjectId>
+      <StateNumber>4234</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <sequence id="268" parent="266" name="car_models_id_seq">
-      <DataType>bigint|0s</DataType>
-      <ObjectId>29882</ObjectId>
-      <StateNumber>3811</StateNumber>
+      <DataType>integer|0s</DataType>
+      <ObjectId>30313</ObjectId>
+      <StateNumber>4235</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <sequence id="269" parent="266" name="cars_id_seq">
-      <DataType>bigint|0s</DataType>
-      <ObjectId>29891</ObjectId>
-      <StateNumber>3812</StateNumber>
+      <DataType>integer|0s</DataType>
+      <ObjectId>30326</ObjectId>
+      <StateNumber>4236</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <sequence id="270" parent="266" name="descriptions_id_seq">
-      <DataType>bigint|0s</DataType>
-      <ObjectId>29898</ObjectId>
-      <StateNumber>3813</StateNumber>
+      <DataType>integer|0s</DataType>
+      <ObjectId>30337</ObjectId>
+      <StateNumber>4237</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <sequence id="271" parent="266" name="item_id_seq">
       <DataType>integer|0s</DataType>
-      <ObjectId>29968</ObjectId>
-      <StateNumber>3909</StateNumber>
+      <ObjectId>30344</ObjectId>
+      <StateNumber>4238</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <sequence id="272" parent="266" name="parameters_id_seq">
-      <DataType>bigint|0s</DataType>
-      <ObjectId>29912</ObjectId>
-      <StateNumber>3815</StateNumber>
+      <DataType>integer|0s</DataType>
+      <ObjectId>30353</ObjectId>
+      <StateNumber>4239</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <sequence id="273" parent="266" name="price_list_id_seq">
-      <DataType>bigint|0s</DataType>
-      <ObjectId>29919</ObjectId>
-      <StateNumber>3816</StateNumber>
+      <DataType>integer|0s</DataType>
+      <ObjectId>30360</ObjectId>
+      <StateNumber>4240</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <sequence id="274" parent="266" name="status_id_seq">
-      <DataType>bigint|0s</DataType>
-      <ObjectId>29926</ObjectId>
-      <StateNumber>3817</StateNumber>
+      <DataType>integer|0s</DataType>
+      <ObjectId>30367</ObjectId>
+      <StateNumber>4241</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <table id="275" parent="266" name="car_brands">
-      <ObjectId>29874</ObjectId>
-      <StateNumber>3818</StateNumber>
+      <ObjectId>30305</ObjectId>
+      <StateNumber>4242</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
     <table id="276" parent="266" name="car_models">
-      <ObjectId>29883</ObjectId>
-      <StateNumber>3818</StateNumber>
+      <ObjectId>30314</ObjectId>
+      <StateNumber>4242</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
     <table id="277" parent="266" name="cars">
-      <ObjectId>29892</ObjectId>
-      <StateNumber>3821</StateNumber>
+      <ObjectId>30327</ObjectId>
+      <StateNumber>4245</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
     <table id="278" parent="266" name="descriptions">
-      <ObjectId>29899</ObjectId>
-      <StateNumber>3819</StateNumber>
+      <ObjectId>30338</ObjectId>
+      <StateNumber>4243</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
     <table id="279" parent="266" name="item">
-      <ObjectId>29969</ObjectId>
-      <StateNumber>3909</StateNumber>
+      <ObjectId>30345</ObjectId>
+      <StateNumber>4247</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
     <table id="280" parent="266" name="parameters">
-      <ObjectId>29913</ObjectId>
-      <StateNumber>3822</StateNumber>
+      <ObjectId>30354</ObjectId>
+      <StateNumber>4246</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
     <table id="281" parent="266" name="price_list">
-      <ObjectId>29920</ObjectId>
-      <StateNumber>3820</StateNumber>
+      <ObjectId>30361</ObjectId>
+      <StateNumber>4244</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
     <table id="282" parent="266" name="status">
-      <ObjectId>29927</ObjectId>
-      <StateNumber>3824</StateNumber>
+      <ObjectId>30368</ObjectId>
+      <StateNumber>4248</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
     <column id="283" parent="275" name="id">
-      <DataType>bigint|0s</DataType>
+      <DataType>integer|0s</DataType>
       <DefaultExpression>nextval(&apos;car_brands_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>3810</StateNumber>
-      <TypeId>20</TypeId>
+      <StateNumber>4234</StateNumber>
+      <TypeId>23</TypeId>
     </column>
     <column id="284" parent="275" name="brand_name">
-      <DataType>varchar(255)|0s</DataType>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>3810</StateNumber>
+      <StateNumber>4234</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="285" parent="275" name="country">
-      <DataType>varchar(255)|0s</DataType>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
       <Position>3</Position>
-      <StateNumber>3810</StateNumber>
+      <StateNumber>4234</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <index id="286" parent="275" name="car_brands_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>29880</ObjectId>
+      <ObjectId>30309</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>3810</StateNumber>
+      <StateNumber>4234</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="287" parent="275" name="car_brands_pkey">
+    <index id="287" parent="275" name="car_brands_brand_name_key">
+      <ColNames>brand_name</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>30311</ObjectId>
+      <StateNumber>4234</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationNames>default</CollationNames>
+      <CollationIds>100</CollationIds>
+      <CollationParentNames>pg_catalog</CollationParentNames>
+    </index>
+    <key id="288" parent="275" name="car_brands_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>29881</ObjectId>
+      <ObjectId>30310</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>3810</StateNumber>
-      <UnderlyingIndexId>29880</UnderlyingIndexId>
+      <StateNumber>4234</StateNumber>
+      <UnderlyingIndexId>30309</UnderlyingIndexId>
     </key>
-    <column id="288" parent="276" name="id">
-      <DataType>bigint|0s</DataType>
+    <key id="289" parent="275" name="car_brands_brand_name_key">
+      <ColNames>brand_name</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>30312</ObjectId>
+      <StateNumber>4234</StateNumber>
+      <UnderlyingIndexId>30311</UnderlyingIndexId>
+    </key>
+    <column id="290" parent="276" name="id">
+      <DataType>integer|0s</DataType>
       <DefaultExpression>nextval(&apos;car_models_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>3811</StateNumber>
-      <TypeId>20</TypeId>
+      <StateNumber>4235</StateNumber>
+      <TypeId>23</TypeId>
     </column>
-    <column id="289" parent="276" name="car_body">
-      <DataType>varchar(255)|0s</DataType>
+    <column id="291" parent="276" name="car_body">
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>3811</StateNumber>
+      <StateNumber>4235</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="290" parent="276" name="model_name">
-      <DataType>varchar(255)|0s</DataType>
+    <column id="292" parent="276" name="model_name">
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
       <Position>3</Position>
-      <StateNumber>3811</StateNumber>
+      <StateNumber>4235</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="291" parent="276" name="car_brand_id">
-      <DataType>bigint|0s</DataType>
+    <column id="293" parent="276" name="car_brand_id">
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
       <Position>4</Position>
-      <StateNumber>3811</StateNumber>
-      <TypeId>20</TypeId>
+      <StateNumber>4235</StateNumber>
+      <TypeId>23</TypeId>
     </column>
-    <column id="292" parent="276" name="description_id">
-      <DataType>bigint|0s</DataType>
+    <column id="294" parent="276" name="description_id">
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
       <Position>5</Position>
-      <StateNumber>3811</StateNumber>
-      <TypeId>20</TypeId>
+      <StateNumber>4235</StateNumber>
+      <TypeId>23</TypeId>
     </column>
-    <column id="293" parent="276" name="price_list_id">
-      <DataType>bigint|0s</DataType>
+    <column id="295" parent="276" name="price_list_id">
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
       <Position>6</Position>
-      <StateNumber>3811</StateNumber>
-      <TypeId>20</TypeId>
+      <StateNumber>4235</StateNumber>
+      <TypeId>23</TypeId>
     </column>
-    <foreign-key id="294" parent="276" name="fk4b1p38n8ajvxw1obwfn4hgrb1">
+    <foreign-key id="296" parent="276" name="car_models_car_brand_id_fkey">
       <ColNames>car_brand_id</ColNames>
-      <ObjectId>29933</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>30374</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
       <RefColNames>id</RefColNames>
       <RefColPositions>1</RefColPositions>
       <RefKeyName>car_brands_pkey</RefKeyName>
-      <StateNumber>3818</StateNumber>
-      <RefTableId>29874</RefTableId>
+      <StateNumber>4242</StateNumber>
+      <RefTableId>30305</RefTableId>
       <RefTableName>car_brands</RefTableName>
       <RefTableKind>table</RefTableKind>
     </foreign-key>
-    <foreign-key id="295" parent="276" name="fkbf1c8d17lkgasamk2uygyppyp">
+    <foreign-key id="297" parent="276" name="car_models_description_id_fkey">
       <ColNames>description_id</ColNames>
-      <ObjectId>29938</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>30379</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
       <RefColNames>id</RefColNames>
       <RefColPositions>1</RefColPositions>
-      <RefKeyName>descriptions_pkey</RefKeyName>
-      <StateNumber>3819</StateNumber>
-      <RefTableId>29899</RefTableId>
+      <StateNumber>4243</StateNumber>
+      <RefTableId>30338</RefTableId>
       <RefTableName>descriptions</RefTableName>
       <RefTableKind>table</RefTableKind>
     </foreign-key>
-    <foreign-key id="296" parent="276" name="fkb3m6667xucu1in742ag7wco2v">
+    <foreign-key id="298" parent="276" name="car_models_price_list_id_fkey">
       <ColNames>price_list_id</ColNames>
-      <ObjectId>29943</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>30384</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
       <RefColNames>id</RefColNames>
       <RefColPositions>1</RefColPositions>
-      <RefKeyName>price_list_pkey</RefKeyName>
-      <StateNumber>3820</StateNumber>
-      <RefTableId>29920</RefTableId>
+      <StateNumber>4244</StateNumber>
+      <RefTableId>30361</RefTableId>
       <RefTableName>price_list</RefTableName>
       <RefTableKind>table</RefTableKind>
     </foreign-key>
-    <index id="297" parent="276" name="car_models_pkey">
+    <index id="299" parent="276" name="car_models_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>29889</ObjectId>
+      <ObjectId>30318</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>3811</StateNumber>
+      <StateNumber>4235</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="298" parent="276" name="car_models_pkey">
+    <index id="300" parent="276" name="car_models_model_name_key">
+      <ColNames>model_name</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>30320</ObjectId>
+      <StateNumber>4235</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationNames>default</CollationNames>
+      <CollationIds>100</CollationIds>
+      <CollationParentNames>pg_catalog</CollationParentNames>
+    </index>
+    <index id="301" parent="276" name="car_models_description_id_key">
+      <ColNames>description_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>30322</ObjectId>
+      <StateNumber>4235</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="302" parent="276" name="car_models_price_list_id_key">
+      <ColNames>price_list_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>30324</ObjectId>
+      <StateNumber>4235</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="303" parent="276" name="car_models_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>29890</ObjectId>
+      <ObjectId>30319</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>3811</StateNumber>
-      <UnderlyingIndexId>29889</UnderlyingIndexId>
+      <StateNumber>4235</StateNumber>
+      <UnderlyingIndexId>30318</UnderlyingIndexId>
     </key>
-    <column id="299" parent="277" name="id">
-      <DataType>bigint|0s</DataType>
+    <key id="304" parent="276" name="car_models_model_name_key">
+      <ColNames>model_name</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>30321</ObjectId>
+      <StateNumber>4235</StateNumber>
+      <UnderlyingIndexId>30320</UnderlyingIndexId>
+    </key>
+    <key id="305" parent="276" name="car_models_description_id_key">
+      <ColNames>description_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>30323</ObjectId>
+      <StateNumber>4235</StateNumber>
+      <UnderlyingIndexId>30322</UnderlyingIndexId>
+    </key>
+    <key id="306" parent="276" name="car_models_price_list_id_key">
+      <ColNames>price_list_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>30325</ObjectId>
+      <StateNumber>4235</StateNumber>
+      <UnderlyingIndexId>30324</UnderlyingIndexId>
+    </key>
+    <column id="307" parent="277" name="id">
+      <DataType>integer|0s</DataType>
       <DefaultExpression>nextval(&apos;cars_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>3812</StateNumber>
-      <TypeId>20</TypeId>
+      <StateNumber>4236</StateNumber>
+      <TypeId>23</TypeId>
     </column>
-    <column id="300" parent="277" name="car_model_id">
-      <DataType>bigint|0s</DataType>
+    <column id="308" parent="277" name="car_model_id">
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>3812</StateNumber>
-      <TypeId>20</TypeId>
+      <StateNumber>4236</StateNumber>
+      <TypeId>23</TypeId>
     </column>
-    <column id="301" parent="277" name="parameters_id">
-      <DataType>bigint|0s</DataType>
+    <column id="309" parent="277" name="parameters_id">
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
       <Position>3</Position>
-      <StateNumber>3812</StateNumber>
-      <TypeId>20</TypeId>
+      <StateNumber>4236</StateNumber>
+      <TypeId>23</TypeId>
     </column>
-    <foreign-key id="302" parent="277" name="fkaj8qcq4ew4l8c7ipgpntm1yd3">
-      <ColNames>car_model_id</ColNames>
-      <ObjectId>29948</ObjectId>
+    <foreign-key id="310" parent="277" name="cars_id_fkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>30389</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
       <RefColNames>id</RefColNames>
       <RefColPositions>1</RefColPositions>
       <RefKeyName>car_models_pkey</RefKeyName>
-      <StateNumber>3821</StateNumber>
-      <RefTableId>29883</RefTableId>
+      <StateNumber>4245</StateNumber>
+      <RefTableId>30314</RefTableId>
       <RefTableName>car_models</RefTableName>
       <RefTableKind>table</RefTableKind>
     </foreign-key>
-    <foreign-key id="303" parent="277" name="fki900qgjggu2magba84wla032">
+    <foreign-key id="311" parent="277" name="cars_parameters_id_fkey">
       <ColNames>parameters_id</ColNames>
-      <ObjectId>29953</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>30394</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
       <RefColNames>id</RefColNames>
       <RefColPositions>1</RefColPositions>
-      <RefKeyName>parameters_pkey</RefKeyName>
-      <StateNumber>3822</StateNumber>
-      <RefTableId>29913</RefTableId>
+      <StateNumber>4246</StateNumber>
+      <RefTableId>30354</RefTableId>
       <RefTableName>parameters</RefTableName>
       <RefTableKind>table</RefTableKind>
     </foreign-key>
-    <index id="304" parent="277" name="cars_pkey">
+    <index id="312" parent="277" name="cars_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>29896</ObjectId>
+      <ObjectId>30331</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>3812</StateNumber>
+      <StateNumber>4236</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="305" parent="277" name="cars_pkey">
+    <index id="313" parent="277" name="cars_car_model_id_key">
+      <ColNames>car_model_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>30333</ObjectId>
+      <StateNumber>4236</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="314" parent="277" name="cars_parameters_id_key">
+      <ColNames>parameters_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>30335</ObjectId>
+      <StateNumber>4236</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="315" parent="277" name="cars_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>29897</ObjectId>
+      <ObjectId>30332</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>3812</StateNumber>
-      <UnderlyingIndexId>29896</UnderlyingIndexId>
+      <StateNumber>4236</StateNumber>
+      <UnderlyingIndexId>30331</UnderlyingIndexId>
     </key>
-    <column id="306" parent="278" name="id">
-      <DataType>bigint|0s</DataType>
+    <key id="316" parent="277" name="cars_car_model_id_key">
+      <ColNames>car_model_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>30334</ObjectId>
+      <StateNumber>4236</StateNumber>
+      <UnderlyingIndexId>30333</UnderlyingIndexId>
+    </key>
+    <key id="317" parent="277" name="cars_parameters_id_key">
+      <ColNames>parameters_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>30336</ObjectId>
+      <StateNumber>4236</StateNumber>
+      <UnderlyingIndexId>30335</UnderlyingIndexId>
+    </key>
+    <column id="318" parent="278" name="id">
+      <DataType>integer|0s</DataType>
       <DefaultExpression>nextval(&apos;descriptions_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>3813</StateNumber>
-      <TypeId>20</TypeId>
+      <StateNumber>4237</StateNumber>
+      <TypeId>23</TypeId>
     </column>
-    <column id="307" parent="278" name="specification">
-      <DataType>varchar(255)|0s</DataType>
+    <column id="319" parent="278" name="specification">
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>3813</StateNumber>
+      <StateNumber>4237</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="308" parent="278" name="descriptions_pkey">
+    <index id="320" parent="278" name="descriptions_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>29903</ObjectId>
+      <ObjectId>30342</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>3813</StateNumber>
+      <StateNumber>4237</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="309" parent="278" name="descriptions_pkey">
+    <key id="321" parent="278" name="descriptions_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>29904</ObjectId>
+      <ObjectId>30343</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>3813</StateNumber>
-      <UnderlyingIndexId>29903</UnderlyingIndexId>
+      <StateNumber>4237</StateNumber>
+      <UnderlyingIndexId>30342</UnderlyingIndexId>
     </key>
-    <column id="310" parent="279" name="id">
+    <column id="322" parent="279" name="id">
       <DataType>integer|0s</DataType>
       <DefaultExpression>nextval(&apos;item_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>3909</StateNumber>
+      <StateNumber>4238</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="311" parent="279" name="title">
+    <column id="323" parent="279" name="title">
       <DataType>varchar(200)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>3909</StateNumber>
+      <StateNumber>4238</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="312" parent="279" name="picture">
+    <column id="324" parent="279" name="picture">
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
-      <StateNumber>3909</StateNumber>
+      <StateNumber>4238</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="313" parent="279" name="car_id">
-      <DataType>integer|0s</DataType>
+    <column id="325" parent="279" name="type">
+      <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
-      <StateNumber>3909</StateNumber>
-      <TypeId>23</TypeId>
+      <StateNumber>4238</StateNumber>
+      <TypeId>1043</TypeId>
     </column>
-    <column id="314" parent="279" name="status_id">
+    <column id="326" parent="279" name="car_id">
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
-      <StateNumber>3909</StateNumber>
+      <StateNumber>4238</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <index id="315" parent="279" name="item_pkey">
+    <column id="327" parent="279" name="status_id">
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+      <StateNumber>4238</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <foreign-key id="328" parent="279" name="item_car_id_fkey">
+      <ColNames>car_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>30399</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+      <RefColNames>id</RefColNames>
+      <RefColPositions>1</RefColPositions>
+      <RefKeyName>cars_pkey</RefKeyName>
+      <StateNumber>4247</StateNumber>
+      <RefTableId>30327</RefTableId>
+      <RefTableName>cars</RefTableName>
+      <RefTableKind>table</RefTableKind>
+    </foreign-key>
+    <foreign-key id="329" parent="279" name="item_status_id_fkey">
+      <ColNames>status_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>30404</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+      <RefColNames>id</RefColNames>
+      <RefColPositions>1</RefColPositions>
+      <StateNumber>4248</StateNumber>
+      <RefTableId>30368</RefTableId>
+      <RefTableName>status</RefTableName>
+      <RefTableKind>table</RefTableKind>
+    </foreign-key>
+    <index id="330" parent="279" name="item_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>29973</ObjectId>
+      <ObjectId>30349</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>3909</StateNumber>
+      <StateNumber>4238</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <index id="316" parent="279" name="item_car_id_key">
+    <index id="331" parent="279" name="item_car_id_key">
       <ColNames>car_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>29975</ObjectId>
-      <StateNumber>3909</StateNumber>
+      <ObjectId>30351</ObjectId>
+      <StateNumber>4238</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="317" parent="279" name="item_pkey">
+    <key id="332" parent="279" name="item_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>29974</ObjectId>
+      <ObjectId>30350</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>3909</StateNumber>
-      <UnderlyingIndexId>29973</UnderlyingIndexId>
+      <StateNumber>4238</StateNumber>
+      <UnderlyingIndexId>30349</UnderlyingIndexId>
     </key>
-    <key id="318" parent="279" name="item_car_id_key">
+    <key id="333" parent="279" name="item_car_id_key">
       <ColNames>car_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>29976</ObjectId>
-      <StateNumber>3909</StateNumber>
-      <UnderlyingIndexId>29975</UnderlyingIndexId>
+      <ObjectId>30352</ObjectId>
+      <StateNumber>4238</StateNumber>
+      <UnderlyingIndexId>30351</UnderlyingIndexId>
     </key>
-    <column id="319" parent="280" name="id">
-      <DataType>bigint|0s</DataType>
+    <column id="334" parent="280" name="id">
+      <DataType>integer|0s</DataType>
       <DefaultExpression>nextval(&apos;parameters_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>3815</StateNumber>
-      <TypeId>20</TypeId>
+      <StateNumber>4239</StateNumber>
+      <TypeId>23</TypeId>
     </column>
-    <column id="320" parent="280" name="color">
-      <DataType>varchar(255)|0s</DataType>
+    <column id="335" parent="280" name="color">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>3815</StateNumber>
+      <StateNumber>4239</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="321" parent="280" name="mileage">
+    <column id="336" parent="280" name="mileage">
       <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
       <Position>3</Position>
-      <StateNumber>3815</StateNumber>
+      <StateNumber>4239</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="322" parent="280" name="power">
+    <column id="337" parent="280" name="power">
       <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
       <Position>4</Position>
-      <StateNumber>3815</StateNumber>
+      <StateNumber>4239</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="323" parent="280" name="vintage">
+    <column id="338" parent="280" name="vintage">
       <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
       <Position>5</Position>
-      <StateNumber>3815</StateNumber>
+      <StateNumber>4239</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <index id="324" parent="280" name="parameters_pkey">
+    <index id="339" parent="280" name="parameters_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>29917</ObjectId>
+      <ObjectId>30358</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>3815</StateNumber>
+      <StateNumber>4239</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="325" parent="280" name="parameters_pkey">
+    <key id="340" parent="280" name="parameters_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>29918</ObjectId>
+      <ObjectId>30359</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>3815</StateNumber>
-      <UnderlyingIndexId>29917</UnderlyingIndexId>
+      <StateNumber>4239</StateNumber>
+      <UnderlyingIndexId>30358</UnderlyingIndexId>
     </key>
-    <column id="326" parent="281" name="id">
-      <DataType>bigint|0s</DataType>
+    <column id="341" parent="281" name="id">
+      <DataType>integer|0s</DataType>
       <DefaultExpression>nextval(&apos;price_list_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>3816</StateNumber>
-      <TypeId>20</TypeId>
+      <StateNumber>4240</StateNumber>
+      <TypeId>23</TypeId>
     </column>
-    <column id="327" parent="281" name="day">
+    <column id="342" parent="281" name="day">
       <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>3816</StateNumber>
+      <StateNumber>4240</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="328" parent="281" name="month">
+    <column id="343" parent="281" name="month">
       <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
       <Position>3</Position>
-      <StateNumber>3816</StateNumber>
+      <StateNumber>4240</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="329" parent="281" name="week">
+    <column id="344" parent="281" name="week">
       <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
       <Position>4</Position>
-      <StateNumber>3816</StateNumber>
+      <StateNumber>4240</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="330" parent="281" name="weekend">
+    <column id="345" parent="281" name="weekend">
       <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
       <Position>5</Position>
-      <StateNumber>3816</StateNumber>
+      <StateNumber>4240</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <index id="331" parent="281" name="price_list_pkey">
+    <index id="346" parent="281" name="price_list_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>29924</ObjectId>
+      <ObjectId>30365</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>3816</StateNumber>
+      <StateNumber>4240</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="332" parent="281" name="price_list_pkey">
+    <key id="347" parent="281" name="price_list_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>29925</ObjectId>
+      <ObjectId>30366</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>3816</StateNumber>
-      <UnderlyingIndexId>29924</UnderlyingIndexId>
+      <StateNumber>4240</StateNumber>
+      <UnderlyingIndexId>30365</UnderlyingIndexId>
     </key>
-    <column id="333" parent="282" name="id">
-      <DataType>bigint|0s</DataType>
+    <column id="348" parent="282" name="id">
+      <DataType>integer|0s</DataType>
       <DefaultExpression>nextval(&apos;status_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>3817</StateNumber>
-      <TypeId>20</TypeId>
+      <StateNumber>4241</StateNumber>
+      <TypeId>23</TypeId>
     </column>
-    <column id="334" parent="282" name="is_available">
+    <column id="349" parent="282" name="is_available">
       <DataType>boolean|0s</DataType>
       <Position>2</Position>
-      <StateNumber>3817</StateNumber>
+      <StateNumber>4241</StateNumber>
       <TypeId>16</TypeId>
     </column>
-    <index id="335" parent="282" name="status_pkey">
+    <index id="350" parent="282" name="status_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>29931</ObjectId>
+      <ObjectId>30372</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>3817</StateNumber>
+      <StateNumber>4241</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="336" parent="282" name="status_pkey">
+    <key id="351" parent="282" name="status_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>29932</ObjectId>
+      <ObjectId>30373</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>3817</StateNumber>
-      <UnderlyingIndexId>29931</UnderlyingIndexId>
+      <StateNumber>4241</StateNumber>
+      <UnderlyingIndexId>30372</UnderlyingIndexId>
     </key>
   </database-model>
 </dataSource>
